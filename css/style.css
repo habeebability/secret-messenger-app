@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.nav  {
+  background-color: black;
+  padding: 2rem;
+}
+.main-container {
+  min-width: 45vw;
+  margin-top: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+#link-form {
+  margin-top: -20rem;
+}
+
+input[type="text"],
+select.form-control {
+  background: transparent;
+  border: 1px solid #4a4abb;
+  /* max-width: 40vw; */
+  padding: 3px;
+  padding-right: 3px;
+  padding-left: 3px;
+  
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="text"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+  <title>Secret Message application</title>
+</head>
+<body>
+ 
+  <div class="container-fluid nav">
+    <div class="container">
+      <h2 class="text-center text-primary">ANONYMOUS MESSAGE </h2> 
+      <h3 class="text-center text-secondary">Created By Habeeb</h3>
+    </div>
+  </div>
+  
+  <div class="container main-container">
+      <div id="message-show" class="p-5 card text-primary invisible">
+        <h1 class="p-3 mb-3"></h1>
+        <div>
+          <a class="p-3" href="./index.html">Create your own message</a>
+        </div>
+      </div>
+    <div id="message-form" class="card text-primary border-primary mb-3" >
+        <div class="card-header text-primary">secret message</div>
+        <div class="card-body">
+          <h5 class="card-title">Write a Secret message</h5>
+          <form class="form-lg" action="">
+            <input id="message-input" class="form-control p-3 mb-4" type="text">
+            <div>
+              <button class="btn btn-primary btn-lg">Create</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div id="link-form" class="card text-primary invisible">
+        <div class="card-header text-primary">secret message</div>
+          <div class="card-body">
+            <card-title>Copy and Share the link below</card-title>
+            <input class="form-control p-3 mb-4" type="text" id="link-input">
+          </div>
+        </div>
+      </div>
+  </div>
+  
+  
+
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
